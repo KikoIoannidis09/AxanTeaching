@@ -1,0 +1,219 @@
+body {
+  font-size: 16px;
+  color: #424448;
+  background-color: #fff;
+  font-family: 'Oxygen', sans-serif;
+}
+/** HEADER **/
+#header-nav {
+  background-color: #fff;
+  border-radius: 0;
+  border: 0;
+  height: 250px;
+}
+
+ .header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 10px 20px;
+            background-color: #fff; /* Background color for the heading */
+        }
+
+        /* CSS for the logo */
+        .logo {
+            width: 50px; /* Adjust the width as needed */
+            height: auto;
+        }
+
+        /* CSS for the title */
+        .title {
+            text-align: center;
+            flex: 1; 
+            color: #424448;
+            font-family: 'Lora', serif;
+            font-size: 2.5em;
+        text-transform: uppercase;
+      font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+line-height: .75;
+text-align: center;
+z-index: 100;
+}
+
+.Large {
+  display: none;
+}
+
+.header {
+    position: relative;
+}
+
+.button-container {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.button {
+    margin: 5px; /* Adjust the margin to your preferred spacing */
+    cursor: pointer;
+}
+
+#menu-tile, #specials-tile, #map-tile, #simata, #haccp, #syllogi, #epikoinonia, #law, #values, #seismos, #drive, #phoni, #visual{
+  height: 210px;
+  width: 90%;
+  margin-bottom: 15px;
+  position: relative;
+  border: 2px solid #3F0C1F;
+  overflow: hidden;
+  margin-top: 30px;
+}
+
+#menu-tile:hover, #specials-tile:hover, #map-tile:hover, #simata:hover, #haccp:hover, #syllogi:hover, #epikoionia:hover, #law:hover, #values:hover, #seismos:hover, #drive:hover, #phoni:hover, #visual:hover{
+  box-shadow: 0 1px 5px 1px #cccccc;
+  
+}
+#menu-tile {
+  background: url('Ergates.png') no-repeat;
+  background-position: center;
+  margin-left: 30px;
+}
+#specials-tile {
+  background: url('Ασφαλεια.jpg') no-repeat;
+  background-position: center;
+  margin-left: 30px;
+}
+
+#map-tile{
+   background: url('H.png') no-repeat;
+  background-position: center;
+   margin-left: 30px;
+}
+
+#simata {
+   background: url('Simata.png') no-repeat;
+  background-position: center;
+   margin-left: 30px;
+}
+
+#haccp {
+   background: url('HACCP.jpg') no-repeat;
+  background-position: center;
+   margin-left: 30px;
+}
+
+#syllogi {
+   background: url('Syl.png') no-repeat;
+  background-position: center;
+   margin-left: 30px;
+}
+
+#epikoinonia{
+   background: url('Communication.png') no-repeat;
+  background-position: center;
+   margin-left: 30px;
+}
+
+#law {
+   background: url('law1.png') no-repeat;
+  background-position: center;
+   margin-left: 30px;
+}
+
+#values {
+   background: url('Values.png') no-repeat;
+  background-position: center;
+   margin-left: 30px;
+}
+
+#seismos{
+   background: url('sismos.png') no-repeat;
+  background-position: center;
+   margin-left: 30px;
+}
+
+#drive{
+   background: url('Vehicles.jpg') no-repeat;
+  background-position: center;
+   margin-left: 30px;
+}
+
+#phoni{
+   background: url('Voice.png') no-repeat;
+  background-position: center;
+   margin-left: 30px;
+}
+
+#visual{
+  background: url('visualp.png') no-repeat;
+  background-position: center;
+   margin-left: 30px;
+}
+
+#menu-tile span, #specials-tile span, #map-tile span, #simata span, #haccp span, #syllogi span, #epikoinonia span, #law span, #values span, #seismos span, #drive span, #phoni span, #visual span{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 1.6em;
+  text-transform: uppercase;
+  background-color: #000;
+  color: #fff;
+  opacity: .8;
+}
+
+@media (max-width: 750px)  {
+  .Small {
+   display: block;
+  }
+
+  .Large {display: none;}
+}
+
+@media (min-width: 751px) {
+    .Small {
+   display: none;
+  }
+
+  .Large {display: block;}
+}
+
+@media (min-width: 600px) {
+  .XLogo {
+    display: block;
+  }
+
+  .SmLogo {
+    display: none;
+  }
+}
+
+@media (max-width: 800px) {
+  .title {
+    font-size: 1.5em;
+    margin-left: 20px;
+  }
+
+  .XLogo {
+    display: none;
+  }
+
+  .SmLogo {
+    display: block;
+  }
+}
+
+@media (max-width: 800px) (min-width: 600px) {
+  .title {
+    font-size: 1.5em;
+    margin-left: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+
+
+
+

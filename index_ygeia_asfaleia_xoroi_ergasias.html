@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="style_ygeia_asfaleia_xoroi_ergasias.css">
+    <link href='https://fonts.googleapis.com/css?family=Oxygen:400,300,700' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Lora' rel='stylesheet' type='text/css'>
+  </head>
+
+  <body>
+ <div class="header">
+    <div class="logo">
+        <img src="axanr.jpg" alt="Logo" class="XLogo">
+        <img src="axansm.jpg" class="SmLogo">
+    </div>
+    <h1 class="title"> ΥΓΕΙΑ ΚΑΙ ΑΣΦΑΛΕΙΑ ΣΤΟΥΣ ΧΩΡΟΥΣ ΕΡΓΑΣΙΑΣ </h1>
+</div>
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-4 col-sm-6 col-xs-12 image">
+            <img src="Pp1.png" alt="Image 1">
+        </div>
+        <div class="col-md-4 col-sm-6 col-xs-12 image">
+            <img src="Pp2.png" alt="Image 2">
+        </div>
+        <div class="col-md-4 col-sm-6 col-xs-12 image">
+            <img src="Pp3.png" alt="Image 3">
+        </div>
+        <div class="col-md-4 col-sm-6 col-xs-12 image">
+            <img src="Pp4.png" alt="Image 4">
+        </div>
+    </div>
+</div>
+
+   <script>
+        // Wait for the DOM to be fully loaded
+        document.addEventListener("DOMContentLoaded", function () {
+            // Get the width of the screen
+            var screenWidth = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
+
+            // Calculate the new width for the images (10 pixels smaller)
+            var newImageWidth = screenWidth - 10;
+
+            // Select and adjust the width of each image by class
+            var images = document.querySelectorAll(".image");
+            images.forEach(function (image) {
+                image.style.width = newImageWidth + "px";
+            });
+        });
+    </script>
+  </body>
+</html>
